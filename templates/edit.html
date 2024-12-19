@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Certificado</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style>
+        fieldset {
+            border: 1px solid #ddd !important;
+            margin: 0;
+            padding: 10px;       
+            position: relative;
+            border-radius:4px;
+            background-color:#dce1f8;
+            padding-left:10px!important;
+            width: auto;
+        }   
+        legend {
+            font-size:14px;
+            font-weight:bold;
+            margin-bottom: 0px; 
+            display: flex; 
+            border: 1px solid #ddd;
+            border-radius: 4px; 
+            padding: 5px 5px 5px 10px; 
+            background-color: #1A50B2;
+            color: white;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1><center>Edición del Certificado {{ nro_certificado }}</center></h1>
+    <div class="container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                        {{ message }}
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        <a href="{{ url_for('buscar') }}" class="btn btn-primary btn-block">Buscar Certificado</a>
+
+
+        <form method="post" action="">
+            <div class="row mt-2">
+                <div class="col-6 col-md-3">N° Certificado nuevo</div>
+                <div class="col-4 col-md-4"><input type="text" name="nro_certificado_nuevo" id="nro_certificado_nuevo" placeholder="{{sugerencia}}" required></div>
+            </div>
+            <div class="row mt-2">
+                {% for section, values in data.items() %} 
+                    {% if section == "resultados" or section == "resultados_antes_ajuste" or section == "presupuesto" or section == "presupuesto_antes_ajuste"%}
+                    <div class="col-md-6">
+                        <fieldset>
+                            <legend>{{ section.capitalize() }}</legend>
+                            {% for key, value in values.items() %}
+                                <label for="{{ section }}_{{ key }}">{{ key }}:</label>
+                                <input type="text" id="{{ section }}_{{ key }}" name="{{ section }}[{{ key }}]" value="{{ value }}" style="width: 100%;" disabled>
+                                <br>
+                            {% endfor %}
+                        </fieldset>
+                    </div>   
+                    {% else %}
+                        <div class="col-md-12">
+                            <fieldset>
+                                <legend>{{ section.capitalize() }}</legend>
+                                {% for key, value in values.items() %}
+                                    <label for="{{ section }}_{{ key }}">{{ key }}:</label>
+                                    <input type="text" id="{{ section }}_{{ key }}" name="{{ section }}[{{ key }}]" value="{{ value }}" style="width: 100%;">
+                                    <br>
+                                {% endfor %}
+                            </fieldset>
+                        </div>  
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-12">
+                    <fieldset>
+                        <legend>Agregar comentario</legend>
+                        <textarea type="text" name="comentario" id="comentario" style="width: 100%;"></textarea>
+                    </fieldset>
+                </div>
+
+       
+            </div>
+
+                    
+
+            
+            <button type="submit" class="btn btn-success btn-block mt-2 mb-2">Guardar</button>            
+        </form>
+
+
+    </div>
+</body>
+</html>

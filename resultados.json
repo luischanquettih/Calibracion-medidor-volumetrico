@@ -1,0 +1,20 @@
+{
+    "nro_certificado": "MT-4036-2024",
+    "VN_SCM": 18.92705892,
+    "VN_SCM_unidad": "L",
+    "Vt": 18.90828121405425,
+    "Vt_unidad": "L",
+    "U_Vt": 0.008949579734239963,
+    "U_Vt_unidad": "L",
+    "k": 2,
+    "veff": 293.0906461500873,
+    "u_deltaVmen": "0.0036298578528373643",
+    "u_deltaVmen_unidad": "L",
+    "desv_estandar": "0.0",
+    "desv_estandar_unidad": "L",
+    "nro_repeticiones": 5,
+    "resolucion": "10.3299999999943",
+    "resolucion_unidad": "ml",
+    "resolucion_porcentaje": "0.05463214706324636",
+    "resolucion_porcentaje_unidad": "%"
+}

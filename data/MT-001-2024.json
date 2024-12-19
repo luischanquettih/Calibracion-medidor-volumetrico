@@ -1,0 +1,219 @@
+{
+    "informacion": {
+        "nro_certificado": "MT-001-2024",
+        "solicitante": "INACAL",
+        "direccion": "C. las Camelias 817, San Isidro 15046",
+        "cotizacion": "001",
+        "fecha_cal": "2024-06-13",
+        "fecha_emi": "2024-06-13",
+        "codigo_RS": "MVP002",
+        "codigo_AUX": "MVAP001",
+        "codigo_tRS": "TP001",
+        "codigo_tSCM": "TP002",
+        "codigo_t": "Termometro001",
+        "codigo_h": "Higrometro001",
+        "codigo_p": "Barometro001",
+        "realizar_ajuste": "NO",
+        "valvula_drenaje": "SI",
+        "marca": "METROIL",
+        "modelo": "No indica",
+        "nro_serie": "F170728",
+        "procedencia": "Perú",
+        "color": "Plateado",
+        "clase": "0.1",
+        "tipo_SCM": "Ex",
+        "material_SCM": "Acero inoxidable grado 304",
+        "cod_id": "No indica ",
+        "valor_nominal": "18,927",
+        "valor_nominal_unidad": "L",
+        "interv_ind": "15 lineas",
+        "res": "1",
+        "res_unidad": "lineas",
+        "material_RS": "Acero inoxidable grado 304",
+        "coeff_material_RS": 5.18e-05,
+        "coeff_material_SCM": 5.18e-05,
+        "ancho": 0.46,
+        "ancho_unidad": "mm",
+        "diametro": 77.78,
+        "diametro_unidad": "mm",
+        "sensibilidad": 11.1,
+        "sensibilidad_unidad": "mm",
+        "t_inicial": "20.9",
+        "h_inicial": "80",
+        "p_inicial": "983.7",
+        "t_final": "21.4",
+        "h_final": "82",
+        "p_final": "984.4",
+        "t_unidad": "°C",
+        "h_unidad": "%",
+        "p_unidad": "mbar",
+        "tiempo_goteo": "30",
+        "tiempo_entrega": "26",
+        "nro_decimales": 5
+    },
+    "pre": {
+        "nro_certificado": "MT-001-2024",
+        "p1": false,
+        "p2": false,
+        "p3": false,
+        "p4": false,
+        "p5": false,
+        "p6": false,
+        "p7": false,
+        "p8": false,
+        "p9": false,
+        "p10": false,
+        "p11": false,
+        "p12": false,
+        "p13": false,
+        "p14": false,
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "c6": "",
+        "c7": "",
+        "c8": "",
+        "c9": "",
+        "c10": "",
+        "c11": "",
+        "c12": "",
+        "c13": "",
+        "c14": ""
+    },
+    "presupuesto": {
+        "nro_certificado": "MT-001-2024",
+        "u_NV0": [
+            0.0022149115858953227,
+            "L"
+        ],
+        "u_tRS": [
+            0.1533681547811419,
+            "°C"
+        ],
+        "u_tSCM": [
+            0.15487542012693895,
+            "°C"
+        ],
+        "u_gammaRS": [
+            2.59e-06,
+            "1/°C"
+        ],
+        "u_gammaSCM": [
+            2.59e-06,
+            "1/°C"
+        ],
+        "u_beta": [
+            2e-06,
+            "1/°C"
+        ],
+        "u_deltaV": [
+            1.527525231651947e-05,
+            "L"
+        ],
+        "u_deltaVmen": [
+            0.001092832482115078,
+            "L"
+        ],
+        "u_deltaVrep": [
+            1.7686817474368806e-05,
+            "L"
+        ],
+        "u_deltaVadd": [
+            0.0013896284673011623,
+            "L"
+        ],
+        "deltaVt_deltaNV0": 1.0000047014126223,
+        "deltaVt_deltatRS": [
+            -0.0029676414230243747,
+            "L/°C"
+        ],
+        "deltaVt_deltatSCM": [
+            0.0029676414230243747,
+            "L/°C"
+        ],
+        "deltaVt_deltagammaRS": [
+            2.0795861927800328,
+            "L°C"
+        ],
+        "deltaVt_deltagammaSCM": [
+            -2.6471173211987042,
+            "L°C"
+        ],
+        "deltaVt_deltabeta": [
+            0.5675311284186717,
+            "L°C"
+        ],
+        "deltaVt_deltadeltaV": 1,
+        "deltaVt_deltadeltaVmen": 1,
+        "deltaVt_deltadeltaVrep": 1,
+        "deltaVt_deltadeltaVadd": 1,
+        "u1": 0.00221492199910861,
+        "u2": -0.0004551416891013305,
+        "u3": 0.000459614712177007,
+        "u4": 5.3861282393002855e-06,
+        "u5": -6.856033861904645e-06,
+        "u6": 1.1350622568373433e-06,
+        "u7": 1.527525231651947e-05,
+        "u8": 0.001092832482115078,
+        "u9": 1.7686817474368806e-05,
+        "u10": 0.0013896284673011623,
+        "u_unidad": "L",
+        "uu_Vt": [
+            0.0029069318318172143,
+            "L"
+        ],
+        "k": 2,
+        "U_Vt": [
+            0.0058138636636344285,
+            "L"
+        ]
+    },
+    "resultados": {
+        "nro_certificado": "MT-001-2024",
+        "VN_SCM": 18.927,
+        "VN_SCM_unidad": "L",
+        "Vt": 18.91905913587416,
+        "Vt_unidad": "L",
+        "U_Vt": 0.0058138636636344285,
+        "U_Vt_unidad": "L",
+        "k": 2,
+        "veff": 140.68429358485716,
+        "u_deltaVmen": "0.001092832482115078",
+        "u_deltaVmen_unidad": "L",
+        "desv_estandar": "3.063446648980382e-05",
+        "desv_estandar_unidad": "L",
+        "nro_repeticiones": 3,
+        "resolucion": "11.20999999999555",
+        "resolucion_unidad": "ml",
+        "resolucion_porcentaje": "0.05925241799545539",
+        "resolucion_porcentaje_unidad": "%"
+    },
+    "calibracion": {
+        "nro_certificado": "MT-001-2024",
+        "t_inicial_": "21.3",
+        "t_final_": "21.8",
+        "h_inicial_": "81.3",
+        "h_final_": "82.8",
+        "p_inicial_": "984.8",
+        "p_final_": "985.5",
+        "t_unidad_": "°C",
+        "h_unidad_": "%",
+        "p_unidad_": "mbar",
+        "t1_unidad_": "°C",
+        "t2_unidad_": "°C",
+        "deltaV_unidad_": "ml",
+        "tg_unidad": "s",
+        "te_unidad": "s",
+        "tRS_": "[['20.31'], ['20.10'], ['19.85']]",
+        "tSCM_": "[['20.35'], ['20.12'], ['19.88']]",
+        "deltaV_": "['-8.23', '-8.23', '-8.23']",
+        "tiempo_goteo": "['30', '30', '30']",
+        "tiempo_entrega": "['26', '26', '25']",
+        "vol_sup_": "['11.11']",
+        "vol_sup_unidad": "ml",
+        "vol_inf_": "['11.11']",
+        "vol_inf_unidad": "ml"
+    }
+}

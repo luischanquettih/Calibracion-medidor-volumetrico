@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar Número de Certificado</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <h1><center>Buscar Certificado</center></h1>
+    <div class="container">
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            {% endfor %}
+        {% endif %}
+      {% endwith %}
+        <form method="POST">
+          <div class="row">
+            <div class="form-group">
+              <label for="nro_certificado">N° Certificado: MT-</label>
+              <input type="text" id="nro_certificado" name="nro_certificado" required>
+              <label for="">-</label>
+              <input type="text" id="anio" name="anio" value="{{ano_actual}}" required>
+              <button type="submit" class="btn btn-success">Enviar</button>
+            </div>       
+          </div>
+        </form>
+    </div>
+  </body>
+</html>

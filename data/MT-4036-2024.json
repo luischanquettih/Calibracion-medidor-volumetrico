@@ -1,0 +1,213 @@
+{
+    "informacion": {
+        "nro_certificado": "MT-4036-2024",
+        "solicitante": "INACAL",
+        "direccion": "De La Prosa 150, San Borja 15034",
+        "cotizacion": "7821",
+        "fecha_cal": "2024-09-18",
+        "fecha_emi": "2024-09-18",
+        "codigo_RS": "MVP002",
+        "codigo_AUX": "MVAP001",
+        "codigo_tRS": "TP001",
+        "codigo_tSCM": "TP002",
+        "codigo_t": "Termometro001",
+        "codigo_h": "Higrometro001",
+        "codigo_p": "Barometro001",
+        "realizar_ajuste": "NO",
+        "valvula_drenaje": "NO",
+        "marca": "Seraphin",
+        "modelo": "Model",
+        "nro_serie": "00123",
+        "procedencia": "Perú",
+        "color": "Rojo",
+        "clase": "0.1",
+        "tipo_SCM": "Ex",
+        "material_SCM": "Acero",
+        "cod_id": "4321 ",
+        "valor_nominal": "5",
+        "valor_nominal_unidad": "gal",
+        "interv_ind": "20 lineas",
+        "res": "1",
+        "res_unidad": "lineas",
+        "material_RS": "Acero inoxidable grado 304",
+        "coeff_material_RS": 5.18e-05,
+        "coeff_material_SCM": 3.3e-05,
+        "ancho": 0.95,
+        "ancho_unidad": "mm",
+        "diametro": 98.64,
+        "diametro_unidad": "mm",
+        "sensibilidad": 2.27,
+        "sensibilidad_unidad": "mm",
+        "t_inicial": "20.1",
+        "h_inicial": "56",
+        "p_inicial": "987.9",
+        "t_final": "20.4",
+        "h_final": "57",
+        "p_final": "988.9",
+        "t_unidad": "°C",
+        "h_unidad": "%",
+        "p_unidad": "mbar",
+        "nro_decimales": 3
+    },
+    "pre": {
+        "nro_certificado": "MT-4036-2024",
+        "p1": true,
+        "p2": true,
+        "p3": true,
+        "p4": true,
+        "p5": true,
+        "p6": true,
+        "p7": true,
+        "p8": true,
+        "p9": true,
+        "p10": true,
+        "p11": true,
+        "p12": true,
+        "p13": true,
+        "p14": true,
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "c6": "",
+        "c7": "",
+        "c8": "",
+        "c9": "",
+        "c10": "",
+        "c11": "",
+        "c12": "",
+        "c13": "",
+        "c14": ""
+    },
+    "presupuesto": {
+        "nro_certificado": "MT-4036-2024",
+        "u_NV0": [
+            0.0022149115858953227,
+            "L"
+        ],
+        "u_tRS": [
+            0.023221858064589013,
+            "°C"
+        ],
+        "u_tSCM": [
+            0.023447859483798537,
+            "°C"
+        ],
+        "u_gammaRS": [
+            2.59e-06,
+            "1/°C"
+        ],
+        "u_gammaSCM": [
+            1.6500000000000003e-06,
+            "1/°C"
+        ],
+        "u_beta": [
+            2e-06,
+            "1/°C"
+        ],
+        "u_deltaV": [
+            1.6802777548171414e-05,
+            "L"
+        ],
+        "u_deltaVmen": [
+            0.0036298578528373643,
+            "L"
+        ],
+        "u_deltaVrep": [
+            0.0,
+            "L"
+        ],
+        "u_deltaVadd": [
+            0.0013896325886947373,
+            "L"
+        ],
+        "deltaVt_deltaNV0": 1.0000004370944593,
+        "deltaVt_deltatRS": [
+            -0.002946245515823974,
+            "L/°C"
+        ],
+        "deltaVt_deltatSCM": [
+            0.0033020768758239743,
+            "L/°C"
+        ],
+        "deltaVt_deltagammaRS": [
+            0.4400518217926543,
+            "L°C"
+        ],
+        "deltaVt_deltagammaSCM": [
+            -0.4400518217926543,
+            "L°C"
+        ],
+        "deltaVt_deltabeta": [
+            0.0,
+            "L°C"
+        ],
+        "deltaVt_deltadeltaV": 1,
+        "deltaVt_deltadeltaVmen": 1,
+        "deltaVt_deltadeltaVrep": 1,
+        "deltaVt_deltadeltaVadd": 1,
+        "u1": 0.0022149125540209045,
+        "u2": -6.841729519189616e-05,
+        "u3": 7.742663458902102e-05,
+        "u4": 1.1397342184429746e-06,
+        "u5": -7.260855059578797e-07,
+        "u6": 0.0,
+        "u7": 1.6802777548171414e-05,
+        "u8": 0.0036298578528373643,
+        "u9": 0.0,
+        "u10": 0.0013896325886947373,
+        "u_unidad": "L",
+        "uu_Vt": [
+            0.004474789867119982,
+            "L"
+        ],
+        "k": 2,
+        "U_Vt": [
+            0.008949579734239963,
+            "L"
+        ]
+    },
+    "resultados": {
+        "nro_certificado": "MT-4036-2024",
+        "VN_SCM": 18.92705892,
+        "VN_SCM_unidad": "L",
+        "Vt": 18.90828121405425,
+        "Vt_unidad": "L",
+        "U_Vt": 0.008949579734239963,
+        "U_Vt_unidad": "L",
+        "k": 2,
+        "veff": 293.0906461500873,
+        "u_deltaVmen": "0.0036298578528373643",
+        "u_deltaVmen_unidad": "L",
+        "desv_estandar": "0.0",
+        "desv_estandar_unidad": "L",
+        "nro_repeticiones": 5,
+        "resolucion": "10.3299999999943",
+        "resolucion_unidad": "ml",
+        "resolucion_porcentaje": "0.05463214706324636",
+        "resolucion_porcentaje_unidad": "%"
+    },
+    "calibracion": {
+        "nro_certificado": "MT-4036-2024",
+        "t_inicial_": "20,5",
+        "t_final_": "20,8",
+        "h_inicial_": "60",
+        "h_final_": "61",
+        "p_inicial_": "989",
+        "p_final_": "990",
+        "t_unidad_": "°C",
+        "h_unidad_": "%",
+        "p_unidad_": "mbar",
+        "t1_unidad_": "°C",
+        "t2_unidad_": "°C",
+        "deltaV_unidad_": "gal",
+        "tRS_": "[['20'], ['20'], ['20'], ['20'], ['20']]",
+        "tSCM_": "[['20'], ['20'], ['20'], ['20'], ['20']]",
+        "deltaV_": "['-0.005', '-0.005', '-0.005', '-0.005', '-0.005']",
+        "vol_sup_": "['10,1']",
+        "vol_sup_unidad": "ml",
+        "vol_inf_": "['10,1']",
+        "vol_inf_unidad": "ml"
+    }
+}

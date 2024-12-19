@@ -1,0 +1,22 @@
+{
+    "nro_certificado": "MT-4036-2024",
+    "t_inicial_": "20,5",
+    "t_final_": "20,8",
+    "h_inicial_": "60",
+    "h_final_": "61",
+    "p_inicial_": "989",
+    "p_final_": "990",
+    "t_unidad_": "°C",
+    "h_unidad_": "%",
+    "p_unidad_": "mbar",
+    "t1_unidad_": "°C",
+    "t2_unidad_": "°C",
+    "deltaV_unidad_": "gal",
+    "tRS_": "[['20'], ['20'], ['20'], ['20'], ['20']]",
+    "tSCM_": "[['20'], ['20'], ['20'], ['20'], ['20']]",
+    "deltaV_": "['-0.005', '-0.005', '-0.005', '-0.005', '-0.005']",
+    "vol_sup_": "['10,1']",
+    "vol_sup_unidad": "ml",
+    "vol_inf_": "['10,1']",
+    "vol_inf_unidad": "ml"
+}
